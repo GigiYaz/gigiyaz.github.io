@@ -1,0 +1,91 @@
+
+body {
+	margin: 0px;
+	margin-bottom: 500px;
+
+}
+
+
+
+
+h1 {
+	color: purple;
+	height: 100%;
+	display: flex;
+	justify-content: space-between; 
+	margin: 0 625px;
+	align-items: center;
+}
+
+
+
+#dog {
+	height: 300px; 
+}
+
+#dog img {
+	max-height: 100%;
+	margin: 0 500px;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+
+header {
+	height: 60px;
+background-color: #989898;
+}
+
+header nav {
+	height: 100%;
+	display: flex;
+	justify-content: space-between; 
+	margin: 0 50px;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+header nav ul li {
+	margin-right: 10px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+} 
+
+header nav ul li a:hover {
+	color: purple;
+}
+
+h2, h3 {
+	color: purple;
+	
+.flex {
+	display: flex;
+}
+
+.flex-one {
+	flex: 1;
+}
+
+
+
+
+/* styles for footer */
+footer section.footer {
+    height: 50px;
+    background-color: #989898;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer P {
+    color: white;
+}
