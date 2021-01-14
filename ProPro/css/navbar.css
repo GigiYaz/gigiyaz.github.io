@@ -1,0 +1,19 @@
+/* navbar color */
+
+
+.secondary-color {
+    background-color:#82ad8e!important;
+	
+	/* style small profile pic */
+	
+}
+img.rounded-circle.z-depth-0 {
+    height: 40px;
+}
+
+/* settings for phone use */
+
+@media only screen and (max-width: 900px){
+	.picture{
+		display:none;
+}
