@@ -1,0 +1,139 @@
+
+/* no scroll sideways  */ 
+
+
+
+body {
+	
+ overflow-x: hidden;
+}
+
+  
+/* heading for my name  */ 
+
+h1#about {
+margin-top: 80px;
+}
+
+
+/* padding between name and navbar */ 
+
+.col {
+    padding-top: 50px;
+	
+	
+
+	
+}
+
+
+
+
+
+
+
+
+/* Why UX button  */ 
+
+
+.button0 {
+	
+padding-top:50px;
+padding-bottom: 40px;
+
+}
+
+
+
+
+/* My portfolio button  */ 
+
+
+.button1 {
+
+padding-top: 50px;
+padding-bottom: 100px;
+
+
+
+}
+
+/* setting fot all buttons  */ 
+
+.btn-outline-default {
+    color: gray!important;
+    background-color: transparent!important;
+    border: 2px solid gray!important;
+}
+
+
+
+  
+
+element.style {
+    padding-top: 18px;
+}
+
+
+
+
+/* all below is settings for mobile mode  */ 
+
+@media only screen and (max-width: 900px){
+	.picture{
+		display:none;
+}
+
+}
+.btn-info {
+    color: #fff;
+    background-color: #82ad8e!important;
+}
+
+h5.font-weight-bold {
+    color: black;
+}
+
+p.mb-4.pb-2 {
+    color: black;
+}
+
+
+
+.rgba-black-strong, .rgba-black-strong:after {
+    background-color: white!important;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #212529!important;
+}
+
+
+}
+
+@media only screen and (max-width: 600px){
+	
+body {
+	
+	
+ overflow-x: hidden;
+}
+	
+	.picture{
+		
+		display:none;
+}
+
+.container {
+	
+	column-count: 1;
+}
+}
+
+
+
+h2.h1-responsive.font-weight-bold.mb-5 {
+    margin-top: 150px;
+}
