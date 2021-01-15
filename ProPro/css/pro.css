@@ -1,19 +1,14 @@
-
+/* to hide side scroll */
 body {
 	
  overflow-x: hidden;
 }
 
   
-.secondary-color {
-    background-color:#82ad8e!important;
-	
-}
-img.rounded-circle.z-depth-0 {
-    height: 40px;
-}
 
 
+
+/* padding between first header and navbar */
 
 
 .col {
@@ -25,7 +20,7 @@ img.rounded-circle.z-depth-0 {
 }
 
 
-
+/* to place the profile pic to the right */
 
 .avatar.mx-auto.white {
  float: right;
@@ -35,11 +30,7 @@ img.rounded-circle.z-depth-0 {
 
 
 
-.anonym {
-	
- text-align: center;
- 
-}
+/* settings for about button */
 
 
 
@@ -52,7 +43,7 @@ padding-bottom: 40px;
 
 
 
-
+/* settings for my portfolio button */
 
 
 
@@ -65,7 +56,7 @@ padding-bottom: 100px;
 
 }
 
-
+/* settings for all buttons */
 .btn-outline-default {
     color: gray!important;
     background-color: transparent!important;
@@ -74,17 +65,21 @@ padding-bottom: 100px;
 
 
 
-  
+  /* green color for nav bar */
 .secondary-color {
     background-color:#82ad8e!important;
 	
 }
+
+/* height for profile pic */
+
 img.rounded-circle.z-depth-0 {
     height: 40px;
 }
-element.style {
-    padding-top: 18px;
-}
+
+
+/* all below settings for phone mode */ 
+
 @media only screen and (max-width: 900px){
 	.picture{
 		display:none;
